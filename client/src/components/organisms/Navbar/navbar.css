@@ -1,0 +1,66 @@
+.navbar {
+  display: flex;
+  height: 70px;
+  max-width: 1440px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  background-color: white;
+}
+
+.navbarLeft,
+.navbarRight {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.navbarIcon {
+  height: 30px;
+}
+
+.navbarIcon:hover {
+  cursor: pointer;
+}
+
+.navbarProfile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.navbarSearch {
+  height: 30px;
+}
+
+.navbarCenter {
+  flex: 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarList {
+  list-style: none;
+  display: flex;
+  gap: 0 20px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarListItem {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  display: block;
+}
+
+.navbarListItem:hover {
+  cursor: pointer;
+}

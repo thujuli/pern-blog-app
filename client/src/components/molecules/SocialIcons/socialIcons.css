@@ -1,0 +1,10 @@
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.socialIcon {
+  height: 30px;
+}

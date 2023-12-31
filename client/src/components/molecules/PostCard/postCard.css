@@ -1,0 +1,55 @@
+.postCard {
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.postCardImg {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.postCardBody {
+  padding: 20px 40px 40px;
+}
+
+.postCardCats {
+  margin-top: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 20px;
+  text-transform: capitalize;
+}
+
+.postCardTitle {
+  font-family: "Lora", serif;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.postCardTimestamp {
+  margin-top: 15px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.postCardDesc {
+  margin-top: 20px;
+  font-family: "Varela", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 150%;
+}

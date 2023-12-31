@@ -1,0 +1,7 @@
+.posts {
+  flex: 9;
+  display: grid;
+  padding: 75px 55px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 50px;
+}
