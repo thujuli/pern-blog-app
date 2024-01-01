@@ -37,14 +37,14 @@
 .postCardTimestamp {
   margin-top: 15px;
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 14px;
   text-align: center;
 }
 
 .postCardDesc {
   margin-top: 20px;
-  font-family: "Varela", sans-serif;
+  font-family: "Lora", serif;
   font-weight: 400;
   font-size: 16px;
   display: -webkit-box;

@@ -2,22 +2,28 @@ import "./navbar.css";
 import searchIcon from "../../../assets/images/search-solid.svg";
 import profileIcon from "../../../assets/images/person.jpg";
 import SocialIcons from "../../molecules/SocialIcons/SocialIcons";
+import { Link } from "react-router-dom";
 
 const navbarMenus = [
   {
     name: "home",
+    link: "/",
   },
   {
     name: "about",
+    link: "/about",
   },
   {
     name: "contact",
+    link: "/contact",
   },
   {
     name: "write",
+    link: "/write",
   },
   {
     name: "logout",
+    link: "/logout",
   },
 ];
 
@@ -31,7 +37,9 @@ export default function Navbar() {
         <ul className="navbarList">
           {navbarMenus.map((item, index) => (
             <li key={index} className="navbarListItem">
-              {item.name.toUpperCase()}
+              <Link to={item.link} className="link">
+                {item.name.toUpperCase()}
+              </Link>
             </li>
           ))}
         </ul>

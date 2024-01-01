@@ -59,6 +59,7 @@
   font-weight: 300;
   font-size: 24px;
   display: block;
+  color: black;
 }
 
 .navbarListItem:hover {
