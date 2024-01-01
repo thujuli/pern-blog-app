@@ -45,7 +45,9 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="navbarRight">
-        <img src={profileIcon} alt="Profile Icon" className="navbarProfile" />
+        <Link to="/settings">
+          <img src={profileIcon} alt="Profile Icon" className="navbarProfile" />
+        </Link>
         <img src={searchIcon} alt="Search Icon" className="navbarSearch" />
       </div>
     </nav>

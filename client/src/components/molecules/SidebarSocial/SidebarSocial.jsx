@@ -1,5 +1,5 @@
 import SidebarCardTitle from "../../atoms/SidebarCardTitle/SidebarCardTitle";
-import SidebarCardContainer from "../../atoms/sidebarCardContainer/SidebarCardContainer";
+import SidebarCardContainer from "../../atoms/SidebarCardContainer/SidebarCardContainer";
 import SocialIcons from "../SocialIcons/SocialIcons";
 import "./sidebarSocial.css";
 

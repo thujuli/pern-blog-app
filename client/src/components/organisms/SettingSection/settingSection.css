@@ -1,0 +1,78 @@
+.settingSection {
+  flex: 9;
+  padding: 30px 45px;
+}
+
+.settHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Lora", serif;
+  font-weight: 500;
+}
+
+.settTitle {
+  font-size: 36px;
+}
+
+.settDelAct {
+  font-size: 16px;
+  color: #fe0101;
+}
+
+.settDelAct:hover {
+  cursor: pointer;
+}
+
+.settBody {
+  width: 50%;
+  margin: 60px auto 0;
+}
+
+.wrapSettImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.settImg:hover {
+  cursor: pointer;
+}
+
+.wrapSettBody {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 30px 0;
+  align-items: end;
+}
+
+.labelSett {
+  grid-column: 1 / span 4;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.inputSett {
+  grid-column: 5 / span 8;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.inputSett:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
