@@ -1,5 +1,5 @@
 import SidebarCardTitle from "../../atoms/SidebarCardTitle/SidebarCardTitle";
-import SidebarCardContainer from "../../atoms/sidebarCardContainer/SidebarCardContainer";
+import SidebarCardContainer from "../../atoms/SidebarCardContainer/SidebarCardContainer";
 import "./sidebarCats.css";
 
 export default function SidebarCats({ title, categories }) {

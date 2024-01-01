@@ -1,5 +1,5 @@
 import SidebarCardTitle from "../../atoms/SidebarCardTitle/SidebarCardTitle";
-import SidebarCardContainer from "../../atoms/sidebarCardContainer/SidebarCardContainer";
+import SidebarCardContainer from "../../atoms/SidebarCardContainer/SidebarCardContainer";
 import "./SidebarProfile.css";
 
 export default function SidebarProfile({ title, imgSrc, imgAlt, children }) {
