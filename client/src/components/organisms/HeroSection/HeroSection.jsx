@@ -1,9 +1,10 @@
 import "./heroSection.css";
 import bgHeroSection from "../../../assets/images/bg-hero.jpg";
+import Container from "../../atoms/Container/Container";
 
 export default function HeroSection() {
   return (
-    <section className="hero">
+    <Container className="hero">
       <p className="heroDesc">React & Node</p>
       <h1 className="heroTitle">BLOG</h1>
       <img
@@ -11,6 +12,6 @@ export default function HeroSection() {
         alt="Background Hero Section"
         className="heroBg"
       />
-    </section>
+    </Container>
   );
 }

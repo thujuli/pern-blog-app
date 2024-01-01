@@ -8,3 +8,7 @@
 .socialIcon {
   height: 30px;
 }
+
+.socialIcon:hover {
+  cursor: pointer;
+}
