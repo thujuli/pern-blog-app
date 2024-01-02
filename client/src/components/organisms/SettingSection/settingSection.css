@@ -48,6 +48,7 @@
 
 .wrapSettBody {
   margin-top: 50px;
+  margin-bottom: 30px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 30px 0;
